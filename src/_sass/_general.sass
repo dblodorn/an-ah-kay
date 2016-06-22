@@ -1,0 +1,23 @@
+//-------------------------------------------------------------------
+//  TOP LEVEL SELECTOR STYLING
+//-------------------------------------------------------------------
+
+html
+  font-size: 62.5%
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeSpeed
+
+body
+  font-size: $base-font-size
+  overflow-x: hidden
+  width: 100vw
+  min-height: 100vh
+  margin: 0
+  background-color: $black
+  *
+    @extend %border-box
+
+img
+  width: 100%
+  height: auto
+  margin-bottom: -3px

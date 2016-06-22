@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'crass';
+  src: url('imgs/fonts/crass-webfont.eot');
+  src: url('imgs/fonts/crass-webfont.eot?#iefix') format('embedded-opentype'),
+       url('imgs/fonts/crass-webfont.woff2') format('woff2'),
+       url('imgs/fonts/crass-webfont.woff') format('woff'),
+       url('imgs/fonts/crass-webfont.ttf') format('truetype'),
+       url('imgs/fonts/crass-webfont.svg#crassregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

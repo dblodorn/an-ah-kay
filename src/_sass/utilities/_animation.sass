@@ -1,0 +1,58 @@
+//-------------------------------------------------------------------
+// ANIMATION
+//-------------------------------------------------------------------
+
+@-webkit-keyframes fade-in
+  0%
+    opacity: 0
+  80%
+    opacity: 1
+  100%
+    opacity: 1
+
+
+@-moz-keyframes fade-in
+  0%
+    opacity: 0
+  80%
+    opacity: 1
+  100%
+    opacity: 1
+
+
+@-o-keyframes fade-in
+  0%
+    opacity: 0
+  80%
+    opacity: 1
+  100%
+    opacity: 1
+
+
+@keyframes fade-in
+  0%
+    opacity: 0
+  80%
+    opacity: 1
+  100%
+    opacity: 1
+
+.fade-in
+  -webkit-animation: fade-in 0.5s normal forwards ease-in-out
+  // Safari 4+
+  -moz-animation: fade-in 0.5s normal forwards ease-in-out
+  // Fx 5+
+  -o-animation: fade-in 0.5s normal forwards ease-in-out
+  // Opera 12+
+  animation: fade-in 0.5s normal forwards ease-in-out
+  // IE 10+, Fx 29+
+
+.fade-in-slow
+  -webkit-animation: fade-in 2s normal forwards ease-in-out
+  // Safari 4+
+  -moz-animation: fade-in 2s normal forwards ease-in-out
+  // Fx 5+
+  -o-animation: fade-in 2s normal forwards ease-in-out
+  // Opera 12+
+  animation: fade-in 2s normal forwards ease-in-out
+  // IE 10+, Fx 29+

@@ -1,0 +1,31 @@
+//-------------------------------------------------------------------
+//  HEADER
+//-------------------------------------------------------------------
+
+header
+  +vendor(transform, rotate(90deg))
+  @extend %aligner-vertical
+  position: fixed
+  top: 36vh
+  right: -37vh
+  height: 6rem
+  width: 80vh
+  padding: 0 1rem
+
+//
+
+@keyframes bounce
+  0%
+    padding: 8%
+  50%
+    padding: 15%
+  100%
+    padding: 8%
+
+#logo-horizontal
+  @extend %aligner
+  animation: bounce 0.125s infinite forwards ease-in-out
+  position: fixed
+  width: 100vw
+  height: 100vh
+  z-index: 9000
