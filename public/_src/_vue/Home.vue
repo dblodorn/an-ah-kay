@@ -1,7 +1,7 @@
 <template lang="jade">
   #app
     h1 {{ title }}
-    nav
+    //nav
       h1
         a(v-link="{ path: '/zines' }") ZINES
 </template>
